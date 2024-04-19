@@ -24,22 +24,22 @@
     
             <div id="logos-container">
                 <div class="logos">
-                    <a href="https://www.facebook.com/shalomservicemensajeria"><img src="{{ asset('images/facebook.png') }}" alt="Logo de Facebook" class="logo"></a>
+                    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><img src="{{ asset('images/facebook.png') }}" alt="Logo de Facebook" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://www.facebook.com/shalomservicemensajeria"><img src="{{ asset('images/ubicacion.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                    <a href="https://www.google.com/maps/place/Shalom+Courier+(Santa+Cruz+-+Bolivia)/@-17.8365531,-63.1575088,15z/data=!4m6!3m5!1s0x93f1e98773c36e43:0x4084311e40955905!8m2!3d-17.8365531!4d-63.1575088!16s%2Fg%2F11svwhg86j?entry=ttu" target="_blank"><img src="{{ asset('images/ubicacion.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://www.tiktok.com/@elviolopezmendoza"><img src="{{ asset('images/tiktok.png') }}" alt="Logo de TikTok" class="logo"></a>
+                    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><img src="{{ asset('images/tiktok.png') }}" alt="Logo de TikTok" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://wa.me/59177331160"><img src="{{ asset('images/whatsapp.png') }}" alt="Logo de WhatsApp" class="logo"></a>
+                    <a href="https://wa.me/59177331160" target="_blank"><img src="{{ asset('images/whatsapp.png') }}" alt="Logo de WhatsApp" class="logo"></a>
                 </div>
                 <div class="logos">
                     <a href="mailto:elviolopez@shalomcourier.com.bo"><img src="{{ asset('images/correo.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://www.instagram.com/shalomcourierbolivia/"><img src="{{ asset('images/instagram.png') }}" alt="Logo de YouTube" class="logo"></a>
+                    <a href="https://www.instagram.com/shalomcourierbolivia" target="_blank"><img src="{{ asset('images/instagram.png') }}" alt="Logo de YouTube" class="logo"></a>
                 </div>
                 <div class="logos">
                     <a href="sms:77331160"><img src="{{ asset('images/sms.png') }}" alt="Logo de TikTok" class="logo"></a>
@@ -48,10 +48,10 @@
                     <a href="tel:77331160"><img src="{{ asset('images/celular.webp') }}" alt="Logo de WhatsApp" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://m.me/shalomservicemensajeria"><img src="{{ asset('images/messenger.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                    <a href="https://m.me/shalomservicemensajeria" target="_blank"><img src="{{ asset('images/messenger.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
                 </div>
                 <div class="logos">
-                    <a href="https://www.shalomcourier.com.bo"><img src="{{ asset('images/web.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                    <a href="https://www.shalomcourier.com.bo" target="_blank"><img src="{{ asset('images/web.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
                 </div>
                 <div class="logos">
                     <a href="{{ route("descargar.contacto") }}"><img src="{{ asset('images/descargar.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
