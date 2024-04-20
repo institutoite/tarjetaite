@@ -94,19 +94,164 @@ footer a {
 /* Cambia el color de los enlaces cuando se pasan sobre ellos */
 footer a:hover {
     color: #0590fa; /* Color de los enlaces al pasar el ratón sobre ellos */
+
 }
 
 /*titulos */
 h2 {
-    background-color: #0590fa; /* Fondo negro */
-    color: #fff; /* Texto blanco */
+    /*background-color: #0590fa; /* Fondo negro */
+    color:#fff; /* Texto blanco */
     padding: 10px; /* Espaciado interno */
     text-align: center; /* Centrado del texto */
     margin-top: 0; /* Elimina el margen superior predeterminado */
 }
+
+.titulo{
+    background-color: #0590fa; /* Fondo negro */
+    color: #fff;
+}
+
+
+/*ds*/
+#logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+
+  .logos {
+    width: 350px;
+    height: 70px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    transform: rotate(10deg); /* Inclina el rectángulo 10 grados */
+    transition: box-shadow 0.3s ease; /* Transición suave para el efecto hover */
+  }
+
+  .logos:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Efecto de sombra al hacer hover */
+  }
+
+  .logos img {
+    width: 50px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(253, 253, 253);
+    margin-right: 10px;
+    float: left; /* Alinea la imagen a la izquierda */
+  }
+
+  .social-name {
+    font-size: 2em;
+    margin-left: 70px; /* Espacio entre la imagen y el nombre */
+    color: inherit; /* Hereda el color del texto del contenedor */
+    font-weight: bold;
+  }
+
+  /* Estilos específicos para cada red social */
+  .facebook {
+    background-color: #3b5998; /* Color de Facebook */
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  
+
+  .instagram {
+    /*background-color: #e4405f; /* Color de Instagram */
+    background-image: linear-gradient(to right, rgb(245, 133, 41), rgb(129,52,175));
+    border-radius: 10px;
+    color: #fff;
+  }
+  .ubicacion{
+    background-color: #e4405f; /* Color de Instagram */
+    border-radius: 10px;
+    color: #fff;
+  }
+    .whatsapp{
+        background-color: #05b313; /* Color de Instagram */
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .slogan{
+        font-size: 1.2em;
+    }
+
+    .mail {
+        background-color: #ea4335; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .sms{
+        background-color: #d7c605; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .tiktok{
+        background-color: #040404; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .celular{
+        background-color: #0469a8; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .messenger{
+        background-color: #169ff4; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .web{
+        background-color: #26cdf2; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+    .descargar{
+        background-color: #116f5b; /* Color de Twitter */
+        border-radius: 10px;
+        color: #fff;
+    }
+  /* Añade más estilos para otras redes sociales según sea necesario */
+
+  @media only screen and (max-width: 600px) {
+    .logos {
+        width: 100%;
+        margin: 5px;
+        transform: none;
+        transform: rotate(10deg);
+        
+    }
+
+    .social-name {
+        font-size: 0.5em;
+        margin-left: 60px;
+
+    }
+  }
+
+/**/
 @media screen and (max-width: 500px) {
     #logos-container {
         flex-direction: column;
         align-items: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

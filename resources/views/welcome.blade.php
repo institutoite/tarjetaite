@@ -1,60 +1,79 @@
 @extends('adminlte::page')
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @stop
 
-@section('title', 'Dashboard')
+@section('title', 'Courier')
 
 @section('content_header')
 @stop
 
 @section('content')
     <div class="container">
-        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('images/logo.jpg') }}" alt="Logo shalom" id="logo">
-                    <h2 class="">¡Contáctanosx con un solo Click! <br> Elvio Lopez Mendoza</h2>
+                    
+                    <div class="titulo">
+                        <h2 class=""><br> Elvio Lopez Mendoza</h2>
+                        <div class="text-center p-3">
+                            <span class="text-center slogan">Líder en Distribución Nacional</span>
+                        </div>
+                    </div>
+                    
                     <img class="foto" src="{{ asset('images/Elvio.jpg') }}" alt="">
                 </div>
                 <div class="foto">
+                    
                 </div>
-    
             </div>
     
             <div id="logos-container">
-                <div class="logos">
-                    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><img src="{{ asset('images/facebook.png') }}" alt="Logo de Facebook" class="logo"></a>
+                <div class="logos facebook">
+                    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook fa-shake text-white fa-3x"></i></a>
+                    <span class="social-name">Facebook</span>
                 </div>
-                <div class="logos">
-                    <a href="https://www.google.com/maps/place/Shalom+Courier+(Santa+Cruz+-+Bolivia)/@-17.8365531,-63.1575088,15z/data=!4m6!3m5!1s0x93f1e98773c36e43:0x4084311e40955905!8m2!3d-17.8365531!4d-63.1575088!16s%2Fg%2F11svwhg86j?entry=ttu" target="_blank"><img src="{{ asset('images/ubicacion.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                <div class="logos ubicacion">
+                    <a href="https://www.google.com/maps/place/Shalom+Courier+(Santa+Cruz+-+Bolivia)/@-17.8365531,-63.1575088,15z/data=!4m6!3m5!1s0x93f1e98773c36e43:0x4084311e40955905!8m2!3d-17.8365531!4d-63.1575088!16s%2Fg%2F11svwhg86j?entry=ttu" target="_blank"><i class="fa-solid fa-location-pin fa-beat fa-3x text-white"></i></a>
+                    <span class="social-name">Ubicación</span>
                 </div>
-                <div class="logos">
-                    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><img src="{{ asset('images/tiktok.png') }}" alt="Logo de TikTok" class="logo"></a>
+                <div class="logos tiktok">
+                    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><i class="fa-brands fa-tiktok fa-bounce fa-3x text-white"></i></a>
+                    <span class="social-name">TikTok</span>
                 </div>
-                <div class="logos">
-                    <a href="https://wa.me/59177331160" target="_blank"><img src="{{ asset('images/whatsapp.png') }}" alt="Logo de WhatsApp" class="logo"></a>
+                <div class="logos whatsapp">
+                    <a href="https://wa.me/59177331160" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce fa-3x text-white"></i></a>
+                    <span class="social-name">WhatsApp</span>
                 </div>
-                <div class="logos">
-                    <a href="mailto:elviolopez@shalomcourier.com.bo"><img src="{{ asset('images/correo.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                <div class="logos mail">
+                    <a href="mailto:elviolopez@shalomcourier.com.bo"><i class="fa-solid fa-envelope-open-text fa-3x text-white"></i></a>
+                    <span class="social-name">Correo</span>
                 </div>
-                <div class="logos">
-                    <a href="https://www.instagram.com/shalomcourierbolivia" target="_blank"><img src="{{ asset('images/instagram.png') }}" alt="Logo de YouTube" class="logo"></a>
+                <div class="logos instagram">
+                    <a href="https://www.instagram.com/shalomcourierbolivia" target="_blank"><i class="fa-brands fa-instagram fa-3x text-white"></i></a>
+                    <span class="social-name">Instagram</span>
                 </div>
-                <div class="logos">
-                    <a href="sms:77331160"><img src="{{ asset('images/sms.png') }}" alt="Logo de TikTok" class="logo"></a>
+                <div class="logos sms">
+                    <a href="sms:77331160"><i class="fa-solid fa-comment-sms text-white fa-3x"></i></a>
+                    <span class="social-name">SMS</span>
                 </div>
-                <div class="logos">
-                    <a href="tel:77331160"><img src="{{ asset('images/celular.webp') }}" alt="Logo de WhatsApp" class="logo"></a>
+                <div class="logos celular">
+                    <a href="tel:77331160"><i class="fa-solid fa-mobile-screen fa-3x text-white"></i></a>
+                    <span class="social-name">Celular</span>
+                    
                 </div>
-                <div class="logos">
-                    <a href="https://m.me/shalomservicemensajeria" target="_blank"><img src="{{ asset('images/messenger.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                <div class="logos messenger">
+                    <a href="https://m.me/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook-messenger text-white fa-3x"></i></a>
+                    <span class="social-name">Messenger</span>
                 </div>
-                <div class="logos">
-                    <a href="https://www.shalomcourier.com.bo" target="_blank"><img src="{{ asset('images/web.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                <div class="logos web">
+                    <a href="https://www.shalomcourier.com.bo" target="_blank"><i class="fa-solid fa-globe fa-spin fa-3x text-white"></i></a>
+                    <span class="social-name">Web</span>
                 </div>
-                <div class="logos">
-                    <a href="{{ route("descargar.contacto") }}"><img src="{{ asset('images/descargar.png') }}" alt="Logo de Correo electrónico" class="logo"></a>
+                <div class="logos descargar">
+                    <a href="{{ route("descargar.contacto") }}"><i class="fa-solid fa-cloud-arrow-down fa-shake fa-3x text-white"></i></a>
+                    <span class="social-name">Descargar</span>
                 </div>
             </div>
             
@@ -198,8 +217,6 @@
                     <p>Dirección: Zona Sur, Calle 10, Casa 10</p>
                 </div>
             </footer>
-    
-    </div>
     </div>
 @stop
 

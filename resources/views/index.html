@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redes Sociales</title>
+<style>
+  #logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+
+  .logos {
+    width: 350px;
+    height: 70px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transform: rotate(10deg); /* Inclina el rectángulo 10 grados */
+    transition: box-shadow 0.3s ease; /* Transición suave para el efecto hover */
+  }
+
+  .logos:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Efecto de sombra al hacer hover */
+  }
+
+  .logos img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    float: left; /* Alinea la imagen a la izquierda */
+  }
+
+  .social-name {
+    font-size: 24px;
+    margin-left: 70px; /* Espacio entre la imagen y el nombre */
+    color: inherit; /* Hereda el color del texto del contenedor */
+    font-weight: bold;
+  }
+
+  /* Estilos específicos para cada red social */
+  .facebook {
+    background-color: #3b5998; /* Color de Facebook */
+    color: #fff;
+  }
+
+  .twitter {
+    background-color: #1da1f2; /* Color de Twitter */
+    color: #fff;
+  }
+
+  .instagram {
+    background-color: #e4405f; /* Color de Instagram */
+    color: #fff;
+  }
+
+  /* Añade más estilos para otras redes sociales según sea necesario */
+
+  @media only screen and (max-width: 600px) {
+    .logos {
+      width: auto;
+      margin: 10px;
+      transform: none;
+    }
+
+    .social-name {
+      font-size: 18px;
+      margin-left: 60px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="logos-container">
+  <div class="logos facebook">
+    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><img src="imagenes/facebook.png" alt="Logo de Facebook" class="logo"></a>
+    <span class="social-name">Facebook</span>
+  </div>
+  <div class="logos twitter">
+    <a href="https://www.google.com/maps/place/Shalom+Courier+(Santa+Cruz+-+Bolivia)/@-17.8365531,-63.1575088,15z/data=!4m6!3m5!1s0x93f1e98773c36e43:0x4084311e40955905!8m2!3d-17.8365531!4d-63.1575088!16s%2Fg%2F11svwhg86j?entry=ttu" target="_blank"><img src="imagenes/ubicacion.png" alt="Logo de Correo electrónico" class="logo"></a>
+    <span class="social-name">Twitter</span>
+  </div>
+  <div class="logos instagram">
+    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><img src="imagenes/tiktok.png" alt="Logo de TikTok" class="logo"></a>
+    <span class="social-name">Instagram</span>
+  </div>
+  <!-- Agrega más logos aquí -->
+</div>
+
+</body>
+</html>
