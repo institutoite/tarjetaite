@@ -99,8 +99,7 @@ footer a:hover {
 
 /*titulos */
 h2 {
-    /*background-color: #0590fa; /* Fondo negro */
-    color:#fff; /* Texto blanco */
+    background-color: #0590fa; 
     padding: 10px; /* Espaciado interno */
     text-align: center; /* Centrado del texto */
     margin-top: 0; /* Elimina el margen superior predeterminado */
