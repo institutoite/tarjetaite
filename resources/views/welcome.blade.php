@@ -82,7 +82,7 @@
                 </div>
                 <div class="logos descargar">
                     <a href="{{ route("descargar.contacto") }}"><i class="fa-solid fa-cloud-arrow-down fa-shake fa-3x text-white"></i>
-                        <span class="social-name">Descargar</span>
+                        <span class="social-name">Guardar contacto</span>
                     </a>
                 </div>
             </div>
