@@ -31,49 +31,59 @@
     
             <div id="logos-container">
                 <div class="logos facebook">
-                    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook fa-shake text-white fa-3x"></i></a>
-                    <span class="social-name">Facebook</span>
+                    <a href="https://www.facebook.com/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook fa-shake text-white fa-3x"></i>
+                        <span class="social-name">Facebook</span>
+                    </a>
                 </div>
                 <div class="logos ubicacion">
-                    <a href="https://www.google.com/maps/place/Shalom+Courier+(Santa+Cruz+-+Bolivia)/@-17.8365531,-63.1575088,15z/data=!4m6!3m5!1s0x93f1e98773c36e43:0x4084311e40955905!8m2!3d-17.8365531!4d-63.1575088!16s%2Fg%2F11svwhg86j?entry=ttu" target="_blank"><i class="fa-solid fa-location-pin fa-beat fa-3x text-white"></i></a>
-                    <span class="social-name">Ubicación</span>
+                    <a href="#ubicaciones" onclick="scrollToElement('ubicaciones')" target="_blank"><i class="fa-solid fa-location-pin fa-beat fa-3x text-white"></i>
+                        <span class="social-name">Ubicaciones</span>
+                    </a>
                 </div>
                 <div class="logos tiktok">
-                    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><i class="fa-brands fa-tiktok fa-bounce fa-3x text-white"></i></a>
-                    <span class="social-name">TikTok</span>
+                    <a href="https://www.tiktok.com/@elviolopezmendoza" target="_blank"><i class="fa-brands fa-tiktok fa-bounce fa-3x text-white"></i>
+                        <span class="social-name">TikTok</span>
+                    </a>
                 </div>
                 <div class="logos whatsapp">
-                    <a href="https://wa.me/59177331160" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce fa-3x text-white"></i></a>
-                    <span class="social-name">WhatsApp</span>
+                    <a href="https://wa.me/59177331160" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce fa-3x text-white"></i>
+                        <span class="social-name">WhatsApp</span>
+                    </a>
                 </div>
                 <div class="logos mail">
-                    <a href="mailto:elviolopez@shalomcourier.com.bo"><i class="fa-solid fa-envelope-open-text fa-3x text-white"></i></a>
-                    <span class="social-name">Correo</span>
+                    <a href="mailto:elviolopez@shalomcourier.com.bo"><i class="fa-solid fa-envelope-open-text fa-3x text-white"></i>
+                        <span class="social-name">Correo</span>
+                    </a>
                 </div>
                 <div class="logos instagram">
-                    <a href="https://www.instagram.com/shalomcourierbolivia" target="_blank"><i class="fa-brands fa-instagram fa-3x text-white"></i></a>
-                    <span class="social-name">Instagram</span>
+                    <a href="https://www.instagram.com/shalomcourierbolivia" target="_blank"><i class="fa-brands fa-instagram fa-3x text-white"></i>
+                        <span class="social-name">Instagram</span>
+                    </a>
                 </div>
                 <div class="logos sms">
-                    <a href="sms:77331160"><i class="fa-solid fa-comment-sms text-white fa-3x"></i></a>
-                    <span class="social-name">SMS</span>
+                    <a href="sms:77331160"><i class="fa-solid fa-comment-sms text-white fa-3x"></i>
+                        <span class="social-name">SMS</span>
+                    </a>
                 </div>
                 <div class="logos celular">
-                    <a href="tel:77331160"><i class="fa-solid fa-mobile-screen fa-3x text-white"></i></a>
-                    <span class="social-name">Celular</span>
-                    
+                    <a href="tel:77331160"><i class="fa-solid fa-mobile-screen fa-3x text-white"></i>
+                        <span class="social-name">Celular</span>
+                    </a>
                 </div>
                 <div class="logos messenger">
-                    <a href="https://m.me/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook-messenger text-white fa-3x"></i></a>
-                    <span class="social-name">Messenger</span>
+                    <a href="https://m.me/shalomservicemensajeria" target="_blank"><i class="fa-brands fa-facebook-messenger text-white fa-3x"></i>
+                        <span class="social-name">Messenger</span>
+                    </a>
                 </div>
                 <div class="logos web">
-                    <a href="https://www.shalomcourier.com.bo" target="_blank"><i class="fa-solid fa-globe fa-spin fa-3x text-white"></i></a>
-                    <span class="social-name">Web</span>
+                    <a href="https://www.shalomcourier.com.bo" target="_blank"><i class="fa-solid fa-globe fa-spin fa-3x text-white"></i>
+                        <span class="social-name">Web</span>
+                    </a>
                 </div>
                 <div class="logos descargar">
-                    <a href="{{ route("descargar.contacto") }}"><i class="fa-solid fa-cloud-arrow-down fa-shake fa-3x text-white"></i></a>
-                    <span class="social-name">Descargar</span>
+                    <a href="{{ route("descargar.contacto") }}"><i class="fa-solid fa-cloud-arrow-down fa-shake fa-3x text-white"></i>
+                        <span class="social-name">Descargar</span>
+                    </a>
                 </div>
             </div>
             
@@ -167,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <section id="ubicacion">
+            <section id="ubicaciones">
                 <h2>Encuéntranos aquí en <br> SANTA CRUZ</h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
@@ -177,7 +187,7 @@
             </section>
             <br>
             <br>
-            <section id="ubicacion">
+            <section id="ubicacionlp">
                 <h2>Encuéntranos aquí en <br> LA PAZ</h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
@@ -187,7 +197,7 @@
             </section>
             <br>
             <br>
-            <section id="ubicacion">
+            <section id="ubicacioncba">
                 <h2>Encuéntranos aquí en <br> COCHABAMBA</h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
@@ -226,4 +236,12 @@
 @section('js')
     <script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script>
     <script src="{{ asset('js/custom.js') }}"></script>
+    <script>
+        function scrollToElement(elementId) {
+            var element = document.getElementById(elementId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
 @stop

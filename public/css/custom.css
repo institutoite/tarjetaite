@@ -27,8 +27,9 @@ body {
     justify-content: center;
     padding: 10px;
 }
-.logos{
+.logos a{
     padding: 10px;
+    
     
 }
 .foto{
@@ -149,7 +150,7 @@ h2 {
   .social-name {
     font-size: 2em;
     margin-left: 70px; /* Espacio entre la imagen y el nombre */
-    color: inherit; /* Hereda el color del texto del contenedor */
+    color: white; /* Hereda el color del texto del contenedor */
     font-weight: bold;
   }
 
@@ -221,17 +222,26 @@ h2 {
   /* Añade más estilos para otras redes sociales según sea necesario */
 
   @media only screen and (max-width: 600px) {
-    .logos {
+    /* .logos {
         width: 100%;
         margin: 5px;
         transform: none;
         transform: rotate(10deg);
+        color: white;
+        
+    } */
+    .logos a {
+        width: 100%;
+        margin: 5px;
+        transform: none;
+        transform: rotate(2deg);
+        color: white;
         
     }
 
     .social-name {
         font-size: 2em;
-        margin-left: 60px;
+        margin-left: 70px;
 
     }
   }
