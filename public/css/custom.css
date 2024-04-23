@@ -148,8 +148,8 @@ h2 {
   }
 
   .social-name {
-    font-size: 2em;
-    margin-left: 70px; /* Espacio entre la imagen y el nombre */
+    font-size: 1.8em;
+    margin-left: 5px; /* Espacio entre la imagen y el nombre */
     color: white; /* Hereda el color del texto del contenedor */
     font-weight: bold;
   }
@@ -240,8 +240,8 @@ h2 {
     }
 
     .social-name {
-        font-size: 2em;
-        margin-left: 70px;
+        font-size: 1.8em;
+        margin-left: 10px;
 
     }
   }
