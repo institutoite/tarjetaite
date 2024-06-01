@@ -1,0 +1,42 @@
+/* Colores */
+:root {
+    --color-blanco: #ffffff;
+    --color-primario: rgb(38, 186, 165);
+    --color-secundario: rgb(55, 95, 122);
+}
+
+/* Estilos base del botón */
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-blanco);
+    background-color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Estilos al pasar el cursor por encima */
+.btn-custom:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+/* Estilos al hacer clic */
+.btn-custom:active {
+    background-color: #3e8e41;
+    border-color: #3e8e41;
+}
+
+/* Estilos al desactivar el botón */
+.btn-custom:disabled {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    cursor: not-allowed;
+}

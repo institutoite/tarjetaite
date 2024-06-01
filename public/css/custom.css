@@ -1,3 +1,12 @@
+.card-title {
+    font-weight: bold;
+    
+  }
+  .card-text {
+    color: #6c757d; /* Color gris */
+    size:5px ;
+    font-style: italic;
+  }
 #logoz {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -19,6 +28,8 @@ body {
     /*border-radius: 50%; */
     
 }
+
+
 
 #logos-container {
     display: flex;
@@ -73,7 +84,7 @@ body {
 
 /*pie de pagina */
 footer {
-    background-color: #0590fa; /* Color de fondo */
+    background-color: rgb(38, 186,165); /* Color de fondo */
     color: #fff; /* Color de texto */
     padding: 20px;
     text-align: center;
@@ -94,13 +105,13 @@ footer a {
 
 /* Cambia el color de los enlaces cuando se pasan sobre ellos */
 footer a:hover {
-    color: #0590fa; /* Color de los enlaces al pasar el ratón sobre ellos */
+    color: rgb(38, 186,165); /* Color de los enlaces al pasar el ratón sobre ellos */
 
 }
 
 /*titulos */
 h2 {
-    background-color: #0590fa; 
+    background-color: rgb(38, 186,165); 
     color:#fff; /* Texto blanco */
     padding: 10px; /* Espaciado interno */
     text-align: center; /* Centrado del texto */
@@ -108,7 +119,7 @@ h2 {
 }
 
 .titulo{
-    background-color: #0590fa; /* Fondo negro */
+    background-color: rgb(38, 186,165); /* Fondo negro */
     color: #fff;
 }
 
@@ -122,7 +133,7 @@ h2 {
   }
 
   .logos {
-    width: 350px;
+    width: 80%;
     height: 70px;
     background-color: #f0f0f0;
     border: 2px solid #ccc;
@@ -131,7 +142,7 @@ h2 {
     display: flex;
     align-items: center;
     
-    transform: rotate(10deg); /* Inclina el rectángulo 10 grados */
+    
     transition: box-shadow 0.3s ease; /* Transición suave para el efecto hover */
   }
 
@@ -156,7 +167,7 @@ h2 {
 
   /* Estilos específicos para cada red social */
   .facebook {
-    background-color: #3b5998; /* Color de Facebook */
+    background-color: rgb(55,95,122); /* Color de Facebook */
     border-radius: 10px;
     color: #fff;
   }
@@ -226,7 +237,6 @@ h2 {
         width: 100%;
         margin: 5px;
         transform: none;
-        transform: rotate(10deg);
         color: white;
         
     } */
@@ -234,25 +244,27 @@ h2 {
         width: 100%;
         margin: 5px;
         transform: none;
-        transform: rotate(2deg);
         color: white;
         
     }
+    .logos{
+        width: 100%;
+    }
 
     .social-name {
-        font-size: 1.8em;
-        margin-left: 10px;
+        font-size: 0.8em;
+        margin-left: 2px;
 
     }
   }
 
 /**/
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     #logos-container {
         flex-direction: column;
         align-items: center;
     }
-}
+} */
 
 
 
