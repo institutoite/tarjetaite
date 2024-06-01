@@ -6,7 +6,7 @@
 
 @stop
 
-@section('title', 'Courier')
+@section('title', 'Educabol')
 
 @section('content_header')
 @stop
@@ -104,8 +104,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">APOYO ESCOLAR PRIMARIA</h5>
-                            <p class="card-text">"Construyendo las bases del conocimiento con diversión y entusiasmo."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Construyendo las bases del conocimiento con diversión y entusiasmo.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Apoyo%20Escolar%20Primaria" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -114,8 +114,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">APOYO ESCOLAR SECUNDARIA</h5>
-                            <p class="card-text">"Preparando a los adolescentes para un futuro brillante y exitoso."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Preparando a los adolescentes para un futuro brillante y exitoso.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Apoyo%20Escolar%20Secundaria" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -124,8 +124,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">APOYO ESCOLAR PREUNIVERSITARIO</h5>
-                            <p class="card-text">"Tu camino al éxito universitario comienza aquí."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Tu camino al éxito universitario comienza aquí.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Apoyo%20Escolar%20Preuniversitario" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -134,8 +134,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">APOYO UNIVERSITARIO</h5>
-                            <p class="card-text">"Supera cada desafío académico con confianza y excelencia."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Supera cada desafío académico con confianza y excelencia.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Apoyo%20Universitario" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -144,8 +144,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">APOYO PARA PROFESIONALES</h5>
-                            <p class="card-text">"Impulsa tu carrera con aprendizaje continuo y especializado."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Impulsa tu carrera con aprendizaje continuo y especializado.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Apoyo%20para%20Profesionales" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -154,8 +154,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">CURSO DE CUBO RUBIK</h5>
-                            <p class="card-text">"Desafía tu mente y domina el cubo con nuestras clases especializadas."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Desafía tu mente y domina el cubo con nuestras clases especializadas.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Curso%20de%20Cubo%20Rubik" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -164,8 +164,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">CLASES DE AJEDREZ</h5>
-                            <p class="card-text">"Estrategia, paciencia y victoria en cada movimiento."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Estrategia, paciencia y victoria en cada movimiento.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20las%20Clases%20de%20Ajedrez" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -174,8 +174,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">PROGRAMACIÓN</h5>
-                            <p class="card-text">"Desarrolla tus habilidades tecnológicas y crea el futuro."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Desarrolla tus habilidades tecnológicas y crea el futuro.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20las%20clases%20de%20Programación" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -184,8 +184,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">COMPUTACIÓN</h5>
-                            <p class="card-text">"Domina las herramientas digitales y triunfa en el mundo moderno."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Domina las herramientas digitales y triunfa en el mundo moderno.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20las%20clases%20de%20Computación" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -194,8 +194,8 @@
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">DESARROLLO DE SOFTWARE</h5>
-                            <p class="card-text">"Innovación tecnológica para un mundo en constante cambio."</p>
-                            <a href="#" class="btn-custom small">Más Información</a>
+                            <p class="card-text">Innovación tecnológica para un mundo en constante cambio.</p>
+                            <a class="btn-custom small" href="https://api.whatsapp.com/send?phone=59171039910&text=Quiero%20más%20información%20sobre%20el%20Desarrollo%20de%20Software" class="btn btn-primary" target="_blank">Más Información</a>
                           </div>
                         </div>
                       </div>
@@ -214,8 +214,7 @@
                 <h2>Agencia <br> Central </h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1899.0231568478252!2d-63.158796264114144!3d-17.836463709524455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e98773c36e43%3A0x4084311e40955905!2sShalom%20Courier%20(Santa%20Cruz%20-%20Bolivia)!5e0!3m2!1ses!2sbo!4v1712530099136!5m2!1ses!2sbo" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7597.513246938265!2d-63.13892701862163!3d-17.803131705728497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e9948f88a431%3A0x448c1b5adb32a0f0!2site%20(central)!5e0!3m2!1ses-419!2sbo!4v1717215763506!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <br>
@@ -224,8 +223,7 @@
                 <h2>Agencia<br> 1º de Mayo</h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239.11112130415702!2d-68.141509!3d-16.486778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f200a21b00789%3A0xf3d6432a492c2af3!2sC.%20Omasuyos%20372!5e0!3m2!1ses!2sbo!4v1712530707833!5m2!1ses!2sbo" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9035.016329804328!2d-63.14008057379088!3d-17.803141180379537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e9d3360e592d%3A0xbb1ce56a94dcace2!2site(Villa%201%20de%20Mayo)!5e0!3m2!1ses-419!2sbo!4v1717215700428!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <br>
@@ -234,8 +232,7 @@
                 <h2>Agencia<br>Plan 3000</h2>
                 <!-- Contenedor del Mapa -->
                 <div id="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d475.9270134206043!2d-66.15282034970285!3d-17.391807393804086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e373f82261cee9%3A0x7255cfc5d986f331!2sAv.%20Hero%C3%ADnas%200640%2C%20Cochabamba!5e0!3m2!1ses-419!2sbo!4v1712530775981!5m2!1ses-419!2sbo" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4517.160560336606!2d-63.139532516811265!3d-17.81686492510433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e93964fb0ad3%3A0x7f013a1818c8b975!2sITE%20INNOVA!5e0!3m2!1ses-419!2sbo!4v1717215604127!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             

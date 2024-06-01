@@ -105,8 +105,8 @@ footer a {
 
 /* Cambia el color de los enlaces cuando se pasan sobre ellos */
 footer a:hover {
-    color: rgb(38, 186,165); /* Color de los enlaces al pasar el ratón sobre ellos */
-
+    color: rgb(55, 95,122); /* Color de los enlaces al pasar el ratón sobre ellos */
+    font-weight: bold;
 }
 
 /*titulos */
