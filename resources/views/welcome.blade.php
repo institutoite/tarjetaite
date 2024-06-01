@@ -3,7 +3,10 @@
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('css/boton.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="icon" sizes="16x16" href="{{ asset('favicon/favicon16x16.png') }}" type="image/png">
+    <link rel="icon" sizes="32x32" href="{{ asset('favicon/favicon32x32.png') }}" type="image/png">
+    <link rel="icon" sizes="48x48" href="{{ asset('favicon/favicon48x48.png') }}" type="image/png">
+    <link rel="icon" sizes="96x96" href="{{ asset('favicon/favicon96x96.png') }}" type="image/png">
 @stop
 
 @section('title', 'Educabol')
