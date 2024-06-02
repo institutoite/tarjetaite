@@ -66,7 +66,7 @@ class ComentController extends Controller
     }
     public function download()
     {
-        $url=storage_path("app\public\contactos\ite_contact.vcf");
+        $url=storage_path("app/public/contactos/ite_contact.vcf");
         return response()->download($url);
     }
 }
